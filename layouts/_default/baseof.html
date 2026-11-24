@@ -43,44 +43,18 @@
   <script src="{{ printf "%s?v=%s" ("/js/tge-feature-data.js" | relURL) (readFile "static/js/tge-feature-data.js" | sha256) }}"></script>
   {{/* GEO: structured data for search and generative engines */}}
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": {{ site.Title | jsonify }},
-    "url": {{ site.BaseURL | jsonify }},
-    "description": {{ site.Params.description | jsonify }},
-    "inLanguage": "en"
-  }
+  {"@context":"https://schema.org","@type":"WebSite","name":"The Gaming Emporium","url":"https://vip-4.github.io/thegamingemporium/","description":"A curated list of decompilations, ports, mods, and more.","inLanguage":"en"}
   </script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": {{ site.Title | jsonify }},
-    "url": {{ .Permalink | jsonify }},
-    "description": "A curated directory of game decompilations, recompilations, PC ports, mods, fan games and preservation projects."
-  }
+  {"@context":"https://schema.org","@type":"CollectionPage","name":"The Gaming Emporium","url":"https://vip-4.github.io/thegamingemporium/","description":"A curated directory of game decompilations, recompilations, PC ports, mods, fan games and preservation projects."}
   </script>
   {{ if .IsHome }}
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {"@type":"Question","name":"What is The Gaming Emporium?","acceptedAnswer":{"@type":"Answer","text":"A curated directory of game decompilations, recompilations, PC ports, mods, fan games and game preservation projects."}},
-      {"@type":"Question","name":"What kinds of projects are listed?","acceptedAnswer":{"@type":"Answer","text":"The directory covers decompilations, recompilations, PC and handheld ports, mods, romhacks, fan games and preservation efforts for classic titles."}},
-      {"@type":"Question","name":"Is the site updated regularly?","acceptedAnswer":{"@type":"Answer","text":"Yes. New projects, ratings and collection pages are generated and published on an ongoing basis."}},
-      {"@type":"Question","name":"Does the site provide downloads?","acceptedAnswer":{"@type":"Answer","text":"No. The site is a directory that links out to each project's own source, release or documentation page."}}
-    ]
-  }
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is The Gaming Emporium?","acceptedAnswer":{"@type":"Answer","text":"A curated directory of game decompilations, recompilations, PC ports, mods, fan games and game preservation projects."}},{"@type":"Question","name":"What kinds of projects are listed?","acceptedAnswer":{"@type":"Answer","text":"The directory covers decompilations, recompilations, PC and handheld ports, mods, romhacks, fan games and preservation efforts for classic titles."}},{"@type":"Question","name":"Is the site updated regularly?","acceptedAnswer":{"@type":"Answer","text":"Yes. New projects, ratings and collection pages are generated and published on an ongoing basis."}},{"@type":"Question","name":"Does the site provide downloads?","acceptedAnswer":{"@type":"Answer","text":"No. The site is a directory that links out to each project's own source, release or documentation page."}}]}
   </script>
   {{ end }}
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [{"@type":"ListItem","position":1,"name":"Home","item":{{ site.BaseURL | jsonify }}}]
-  }
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://vip-4.github.io/thegamingemporium/"}]}
   </script>
 </head>
 <body>
