@@ -1,0 +1,17 @@
+# The Gaming Emporium
+
+> A curated directory of game decompilations, recompilations, PC ports, mods, fan games and preservation projects. Built with Hugo.
+
+## Key facts
+- Curated, categorized directory of game preservation and reverse-engineering projects.
+- Covers decompilations, recompilations, PC ports, mods, romhacks, fan games and collections.
+- Structured browse indexes, ratings, series pages and searchable catalog.
+- Static site generated with Hugo; RSS feed available.
+- Live site: https://vip-4.github.io/thegamingemporium/
+- Upstream repository: https://github.com/OldMcGroin/thegamingemporium
+
+## Documentation
+- Home: https://vip-4.github.io/thegamingemporium/
+- Browse index: https://vip-4.github.io/thegamingemporium/browse/
+- FAQ: https://vip-4.github.io/thegamingemporium/#faq
+- Machine-readable summary: https://vip-4.github.io/thegamingemporium/llms.txt
