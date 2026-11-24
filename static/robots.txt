@@ -8,3 +8,17 @@ User-agent: Facebot
 Allow: /
 User-agent: Twitterbot
 Allow: /
+
+# Allow generative-engine crawlers
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://vip-4.github.io/thegamingemporium/sitemap.xml
